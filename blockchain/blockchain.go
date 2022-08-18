@@ -113,7 +113,7 @@ func (chain *BlockChain) AddBlock(block *Block) {
 
 		item, err = txn.Get(lastHash)
 		Handle(err)
-		lastBlockData, _ := item.Value()
+		lastBlockData,_ := item.Value()
 
 		lastBlock := Deserialize(lastBlockData)
 
