@@ -9,13 +9,13 @@ import (
 	"io/ioutil"
 	"log"
 	"net"
-	"syscall"
-	"runtime"
 	"os"
+	"runtime"
+	"syscall"
 
 	"gopkg.in/vrecan/death.v3"
 
-	"github.com/tensor-programming/golang-blockchain/blockchain"
+	"go-crypto/blockchain"
 )
 
 const (

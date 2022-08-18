@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/gob"
 
-	"github.com/tensor-programming/golang-blockchain/wallet"
+	"go-crypto/wallet"
 )
 
 type TxOutput struct {
